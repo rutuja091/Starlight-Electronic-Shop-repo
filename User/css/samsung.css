@@ -1,0 +1,252 @@
+/* General Reset */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(to right, #0047ab, #007bff);
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom:3px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.header .logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header .navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.header .navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+.header .header-icons a {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.header .header-icons a:hover {
+    color: #ffcc00;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffcc00;
+}
+
+.social-links a {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ffcc00;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+/* addimg */
+
+
+.image-banner {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.image-banner img {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+
+/* body */
+
+.main-head{
+  justify-content: center;
+  text-align: center;
+
+  margin-bottom: 40px;
+  color: black;
+  font-size: 50px;
+}
+
+
+.cardcontainer{
+display: flex;
+margin:50px;
+}
+
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+    margin-left: 110px;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .card-content {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .card-price {
+    font-size: 20px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-rating {
+    color: #ffc107;
+    margin-bottom: 15px;
+  }
+
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+  }
+
+  .btn-cart {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .btn-cart:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-view {
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+
+  .btn-view:hover {
+    background-color: #eaeaea;
+  }
